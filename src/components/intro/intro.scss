@@ -1,8 +1,13 @@
+@import "../../global.scss";
+
 .intro{
     background-color: white;
     display: flex;
   
-
+@include mobile{
+    flex-direction: column;
+    align-items: center;
+}
     .left{
         flex: 0.5;
         overflow: hidden;
@@ -10,13 +15,17 @@
         
         .imgContainer{
             width: 550px;
-            height: 580px;
-            background-color: rgb(117, 116, 112);
+            height: 550px;
+            background-color: rgb(170, 169, 161);
             border-radius: 50%;
             display: flex;
             align-items: flex-end;
             justify-content: center;
             float: right;
+
+            @include mobile{
+                align-items: flex-start;
+            }
            
            /*  
             .cropped img {
@@ -25,9 +34,13 @@
 
             
        img{
-height: 90%;
-width: 70%;
-border-radius: 5%;
+height: 100%;
+width: 63%;
+border-radius: 3%;
+
+@include mobile{
+    height: 50%;
+}
 
        }
         }
