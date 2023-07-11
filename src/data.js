@@ -28,7 +28,7 @@ export  const featuredPortfolio = [
         img: "https://cdn.dribbble.com/userupload/5384393/file/original-ae639f9e7ff625b90a8cf4c57903524d.png?compress=1&resize=400x300&vertical=center",
         },
 ]
-export const mobilePortfolio = [
+export const webPortfolio = [
    {
     id: 1,
         title:"Banking app",
@@ -60,7 +60,7 @@ export const mobilePortfolio = [
         },
 ]
 
-export const designPortfolio = [
+export const mobilePortfolio = [
     {
         id: 1,
         title:"Banking app",
@@ -89,6 +89,38 @@ export const designPortfolio = [
         img: "https://cdn.dribbble.com/userupload/6355174/file/original-51d21cb99164d70225e3f4c9b168ae18.png?compress=1&resize=320x240&vertical=center",
         },
 ]
+
+export const designPortfolio = [
+    {
+     id: 1,
+         title:"Banking app",
+         img:
+         "https://cdn.dribbble.com/userupload/7272912/file/original-98c4377ad81cf0057de2b7abe6134f36.png?compress=1&resize=320x240&vertical=center",
+         },
+         { id: 2,
+         title:"SocialMedia App",
+         img:
+         "https://cdn.dribbble.com/userupload/6313459/file/original-75c6015234150a8b73ae54139a1ce4f0.png?compress=1&resize=320x240&vertical=center", 
+         },
+         { id: 3,
+         title:"Ecommerce App",
+         img: "https://cdn.dribbble.com/userupload/3080936/file/original-3e109d9bcf3090a1d33b9f1c745a482a.png?compress=1&resize=320x240&vertical=center",
+         },
+         { id: 4,
+             title:"Fashion App",
+             img: 
+             "https://cdn.dribbble.com/userupload/7125524/file/original-77cb57a02d470eac373e68a72ae587e0.png?compress=1&resize=320x240&vertical=center",
+             
+             },
+             { id: 5,
+                 title:"Legal App",
+                 img:  "https://cdn.dribbble.com/users/4065092/screenshots/19499373/media/ff4082c172b848a7ca1ff287bd05b2a1.png?compress=1&resize=320x240&vertical=center",
+                 },
+                 { id: 6,
+         title:"Medical App",
+         img: "https://cdn.dribbble.com/userupload/4839040/file/original-88816802666b6b76150bd4fa2092567e.jpg?compress=1&resize=320x240&vertical=center",
+         },
+ ]
 export const contentPortfolio = [
     {
         id: 1,
