@@ -13,8 +13,10 @@ const Works = () => {
       icon: "https://github.com/safak/youtube/blob/react-portfolio/public/assets/mobile.png?raw=true",
       title: "Web Application",
       desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos veritatis quae velit ex voluptate.",
-      img: "https://cdn.dribbble.com/userupload/4674677/file/original-ecc4eae6c9189046ccf28f9008a6c585.png?compress=1&resize=320x240&vertical=center",
+      img: "https://cdn.dribbble.com/userupload/3258538/file/original-aecafbb0bf405bc57d5ccad642ee3875.png?compress=1&resize=320x240&vertical=center",
     },
+
+    /* https://cdn.dribbble.com/userupload/4674677/file/original-ecc4eae6c9189046ccf28f9008a6c585.png?compress=1&resize=320x240&vertical=center */
     {
       id:"2",
       icon: "https://github.com/safak/youtube/blob/react-portfolio/public/assets/globe.png?raw=true",

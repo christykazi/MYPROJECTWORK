@@ -9,6 +9,7 @@ import { featuredPortfolio, mobilePortfolio,designPortfolio, contentPortfolio} f
 const Portfolio = () => {
   const [selected,setSelected] = useState("featured")
   const [data,setData] = useState([])
+
   const list =[
     {
       id: "featured",
@@ -16,15 +17,15 @@ const Portfolio = () => {
     },
     {
       id: "mobile",
-      title: "Mobile",
+      title: "Mobile App",
     },
     {
       id: "design",
-      title: "Design",
+      title: "Design App",
     },
     {
       id: "content",
-      title: "Content",
+      title: "Content App",
     },
   ]
   useEffect(() => {
@@ -53,7 +54,7 @@ const Portfolio = () => {
 
 
 {list.map((item) => (
-  <Portfoliolist title={item.title} active={selected === item.id} setSele cted={setSelected}
+  <Portfoliolist title={item.title} active={selected === item.id} setSelected={setSelected}
     id={item.id}
   />
 ))}
