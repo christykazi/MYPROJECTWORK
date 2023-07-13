@@ -22,14 +22,14 @@ const Works = () => {
       icon: "https://github.com/safak/youtube/blob/react-portfolio/public/assets/globe.png?raw=true",
       title: "mobile Application",
       desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos veritatis quae velit ex voluptate.",
-      img: "https://images.pexels.com/photos/1090638/pexels-photo-1090638.jpeg?auto=compress&cs=tinysrgb&w=600",
+      img: "https://cdn.dribbble.com/userupload/7446309/file/original-1a615863f6f836359fc8ef97872e979b.jpg?compress=1&resize=320x240&vertical=center",
     },
     {
       id:"3",
       icon: "https://github.com/safak/youtube/blob/react-portfolio/public/assets/mobile.png?raw=true",
       title: "Branding",
       desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos veritatis quae velit ex voluptate.",
-      img: "https://images.pexels.com/photos/1090638/pexels-photo-1090638.jpeg?auto=compress&cs=tinysrgb&w=600",
+      img: "https://cdn.dribbble.com/userupload/7446309/file/original-1a615863f6f836359fc8ef97872e979b.jpg?compress=1&resize=320x240&vertical=center otg",
     },
   ]
  

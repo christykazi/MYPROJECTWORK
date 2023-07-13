@@ -12,7 +12,7 @@ const Topbar = ({ menuOpen,setMenuOpen}) => {
         <div className="itemcontainer">
           {  <BsFillFilePersonFill/> }
           <span className='
-          good'>+234-814-207-2098</span>
+          good'>+234-701-091-7437</span>
         </div>
         <div className="itemcontainer">
        {<BsFillEnvelopeFill/>}
