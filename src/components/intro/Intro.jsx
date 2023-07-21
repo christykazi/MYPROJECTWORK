@@ -24,8 +24,8 @@ const Intro = () => {
     </div>
     <div className="right">
       <div className="wrapper">
-        <h2>Hi there,I'm  </h2>
-        <h1>Christy Agbai</h1>
+        <h2>Hi there, I'm</h2>
+        <h1>Christiana Agbai</h1>
         <h3>FullStack Web <span>Developer </span></h3>
       </div >
       <a href="#portfolio">
