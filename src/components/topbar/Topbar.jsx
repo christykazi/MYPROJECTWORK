@@ -16,7 +16,7 @@ const Topbar = ({ menuOpen,setMenuOpen}) => {
         </div>
         <div className="itemcontainer">
        {<BsFillEnvelopeFill/>}
-          <span className='good'>agbaichristy@gmail.com</span>
+          <span className='good'>agbaichristiana37@gmail.com</span>
         </div>
       </div>
       <div className="right">

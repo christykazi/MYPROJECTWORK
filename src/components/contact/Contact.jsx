@@ -19,15 +19,21 @@ const [message,setMessage] = useState(false)
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_quzvufn', 'template_5lifm3l', form.current, 'RIC4x65BxILJraNlf')
-      .then((result) => {
-        e.preventDefault()
-        setMessage(true)
-          console.log(result.text);
-          console.log("message sent")
-      }, (error) => {
-          console.log(error.text);
-      });
+    emailjs.sendForm('service_quzvufn', 'template_xad8hgo', form.current, 'RIC4x65BxILJraNlf')
+
+ /* for disappearing form */
+    e.target.reset()
+
+
+    /* .then((result) => {
+      e.preventDefault()
+      setMessage(true)
+        console.log(result.text);
+        console.log("message sent")
+    }, (error) => {
+        console.log(error.text);
+    });
+     */
   };
 
  
@@ -44,12 +50,12 @@ const [message,setMessage] = useState(false)
    {/* <input type="submit" value="Send" /> */}
 
       <form ref={form} onSubmit={sendEmail}>
-      <input type="text" name="user_name" placeholder="Full Name" required/>
-      <input type="email" name="user_email" placeholder="Email Address" required/>
+      <input type="text" name="name" placeholder="Full Name" required/>
+      <input type="email" name="email" placeholder="Email Address" required/>
 
       <textarea name="message" placeholder="Message" required />
       <button type="submit" >Submit</button>
-      {message && <span>Thanks, I'll reply ASAP :) </span> }
+      {setMessage && <span>Thanks, I'll reply ASAP :) </span> }
  
     </form>
      
