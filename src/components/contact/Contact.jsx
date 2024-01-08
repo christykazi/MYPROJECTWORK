@@ -55,7 +55,7 @@ const [message,setMessage] = useState(false)
 
       <textarea name="message" placeholder="Message" required />
       <button type="submit" >Submit</button>
-      {setMessage && <span>Thanks, I'll reply ASAP &#128512;&#128512; </span> }
+      {/* {setMessage && <span>Thanks, I'll reply ASAP &#128512;&#128512; </span> } */}
  
     </form>
      
